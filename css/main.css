@@ -1,8 +1,8 @@
 body{
 	font-family: 'Milonga', cursive;
-	font-size: 12px;
+	font-size: 0.750em;
 	line-height: 1.5;
-	width: 800px;
+	width: 60%;
 	margin: 0 auto;
 	background-image: url(images/bgimage.jpg);
 	background-repeat: repeat-y;
@@ -10,16 +10,16 @@ body{
 }
 
 header{
-	width: 400px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	
 }
 
-.navigation{
+nav{
 	background: #7C7B7B;
 	overflow: hidden;
-	text-align: center;
+	text-align: center;  
 }
 
 
@@ -38,8 +38,9 @@ a:hover{
 
 }
 
-.image{
+img{
 	clear: both;
+	width: 20.0833333%;
 }
 
 h1, h2, h3{
@@ -48,11 +49,12 @@ h1, h2, h3{
 
 h1{
    text-shadow: 2px 2px 2px #333;
-   font-size: 35px;
+   font-size: 2.917em;
 }
 
 .main{
 	background-color: #5E5B58;
+	width: 100%;
 }
 
 ul{
@@ -62,6 +64,7 @@ ul{
 
 .image_gallery{
 	float: left;
+	width: 100%;
 }
 
 h3{
@@ -71,4 +74,46 @@ h3{
 div{
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
-}	
+	width: 100%;
+}
+
+/* Media Queries */
+
+
+/* Tablet Screen 960 */
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+	ul {
+		background-color: #FFF;
+		font-family: verdana, arial;
+		list-style-type: square; 
+	}
+
+}
+
+/* Mobile Landscape  */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+	ul {
+		background-color: #aac6d3;
+		font-family: verdana, arial;
+		list-style-type: square; 
+	}
+
+}
+
+/* Mobile Landscape  */
+
+@media screen and (max-width: 479px) {
+
+	ul {
+		background-color: #577cb3;
+		font-family: verdana, arial;
+		list-style-type: square;
+	} 
+		img {display: none;
+	}
+
+}
