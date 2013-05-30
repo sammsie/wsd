@@ -1,7 +1,6 @@
 body{
 	font-family: 'Milonga', cursive;
 	font-size: 0.750em;
-	line-height: 1.5;
 	width: 60%;
 	margin: 0 auto;
 	background-image: url(images/bgimage.jpg);
@@ -57,14 +56,62 @@ h1{
 	width: 100%;
 }
 
+
+
 ul{
 	background-color: rgba(63, 62, 61, 0.5);
 	list-style-type: circle;
 }
 
-.image_gallery{
+table {
+	width: 150%;
+	line-height: 150%;
+	border-collapse: collapse;
+	border: 1px solid #666;
+	
+}
+
+
+
+td {
+	text-align: center;
+
+}
+
+th {
+	background-color: #CCC;
+	color: #333;
+	padding: 0.3em;
+}
+
+.odd_row {
+	background-color: rgba(63, 62, 61, 0.5);
+
+}
+
+
+
+.image_gallery {
 	float: left;
 	width: 100%;
+}
+
+form {
+		width: 100%;
+		line-height: 200%;
+		text-align: left;
+}
+
+input {
+	background-color: rgba(63, 62, 61, 0.5);
+	border: 1px solid #666;
+	
+}
+
+button {
+	background-color: rgba(63, 62, 61, 0.5);
+	border: 1px solid #666;
+	
 }
 
 h3{
@@ -87,7 +134,40 @@ div{
 	ul {
 		background-color: #FFF;
 		font-family: verdana, arial;
-		list-style-type: square; 
+		list-style-type: square;
+		width: 70%; 
+	}
+	
+description { 
+		width: 70%;
+	}
+
+h1, h2, h3 {
+	width: 70%;
+	}
+
+nav {
+	width: 70%;
+	}
+
+table {
+	width: 70%;
+	}
+
+.main {
+	width: 70%;
+	}
+
+article {
+	width: 70%;
+	}
+	
+form {
+	width: 70%;
+	}
+		
+footer {
+	width: 70%;
 	}
 
 }
@@ -99,7 +179,40 @@ div{
 	ul {
 		background-color: #aac6d3;
 		font-family: verdana, arial;
-		list-style-type: square; 
+		list-style-type: square;
+		width: 50%; 
+	}
+
+description { 
+		width: 50%;
+	}
+	
+nav {
+	width: 50%;
+	}	
+
+h1, h2, h3 {
+		width: 50%;
+	}
+
+table {
+	width: 50%;
+	}
+
+.main {
+	width: 50%;
+	}
+
+form {
+	width: 50%;
+	}
+		
+article {
+	width: 50%;
+	}
+
+footer {
+	width: 50%;
 	}
 
 }
@@ -112,8 +225,42 @@ div{
 		background-color: #577cb3;
 		font-family: verdana, arial;
 		list-style-type: square;
+		width: 30%;
 	} 
 		img {display: none;
+	
+	}
+	
+description {
+		width: 30%;
+	}
+
+nav {
+	width: 30%;
+	}
+	
+h1, h2, h3 {
+		width: 30%;
+	}
+
+table {
+	width: 30%;
+	}	
+	
+.main {
+	width: 30%;
+	}
+	
+form {
+	width: 30%;
+	}
+
+article {
+	width: 30%;
+	}
+
+footer {
+	width: 30%;
 	}
 
 }
